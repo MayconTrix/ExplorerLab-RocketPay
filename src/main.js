@@ -17,7 +17,6 @@ function setCardType(type) {
   ccLogo.setAttribute("src", `cc-${type}.svg`)
 }
 
-// setCardType("mastercard")
 globalThis.setCardType = setCardType
 
 const securityCode = document.querySelector("#security-code")
